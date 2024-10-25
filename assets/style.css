@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  line-height: 28px;
+  overflow-wrap: break-word;
+  /* margin: 0px 15px; */
+}
+
+h2 {
+  font-size: 26px;
+  text-align: center;
+  margin: 30px;
+  color: rgb(25, 27, 27);
+}
+
+header {
+  background-color: gray;
+  background-image: url(./pexels-photo-248515.webp);
+  /* position: absolute; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 55vh;
+  justify-content: center;
+  opacity: 80%;
+  /* align-content: center;  */
+  /* margin-bottom: 900px; */
+  gap: 20px;
+}
+
+.name{
+
+margin: -40px 15px 2px;
+font-size: 36px;
+text-align: center;
+
+
+}
+
+.mainInfo {
+  font-size: 18px;
+  text-align: center;
+  /* max-width: 900px; */
+  /* height: 100px; */
+  padding: 0px 20px 2px;
+}
+
+.mainBtn {
+  border: 1px solid white;
+  height: 60px;
+  width: 150px;
+  text-align: center;
+  padding: 20px 5px;
+  text-decoration: none;
+  background-color: rgb(65, 62, 62);
+  color: white;
+  font-size: 18px;
+  margin: -20px 15px 0px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.section1 {
+  /* flex-direction: column;
+  display: flex; */
+background-color: rgb(253, 251, 236);
+width: 100vw;
+/* min-height: 100px; */
+}
+
+.generalSection{
+  /* background-color: rgb(78, 76, 76); */
+
+}
+
+.mainSection {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: stretch;
+ flex-wrap: wrap;
+ background-color: rgb(78, 76, 76);
+ padding: 40px;
+ gap: 20px;
+}
+
+/* .main-wrapper {
+height: 80%;
+} */
+
+.img {
+ /* max-height: 180px;
+ max-width: 600px; */
+ object-fit: cover;
+ width: 100%;
+}
+
+.container {
+  flex: 1;
+list-style-type: none;
+/* color: white; */
+text-align: center;
+/* height: 450px; */
+
+font-size: 0;
+/* height: 520px; */
+
+}
+
+.paragraf, h3 {
+  background-color: white;
+  font-size: 18px;
+}
+
+.paragraf{
+  width: 100%;
+
+}
+.applicationInfo{
+  font-size: 18px;
+  /* max-width: 850px; */
+  text-align: center; 
+  padding: 5px; 
+  margin: 50px auto 40px;
+}
+
