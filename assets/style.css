@@ -6,54 +6,46 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  /* width: 100vw; */
 }
 
-p{
+p {
   line-height: 28px;
   overflow-wrap: break-word;
-  /* margin: 0px 15px; */
+  font-size: 18px;
 }
 
 h2 {
   font-size: 26px;
   text-align: center;
   margin: 30px;
-  color: rgb(25, 27, 27);
+  /* color: rgb(25, 27, 27); */
 }
 
 header {
   background-color: gray;
   background-image: url(./pexels-photo-248515.webp);
-  /* position: absolute; */
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  /* text-align: center; */
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 55vh;
   justify-content: center;
   opacity: 80%;
-  /* align-content: center;  */
-  /* margin-bottom: 900px; */
   gap: 20px;
 }
 
-.name{
-
-margin: -40px 15px 2px;
-font-size: 36px;
-text-align: center;
-
-
+.name {
+  margin: -40px 15px 2px;
+  font-size: 36px;
+  text-align: center;
 }
 
 .mainInfo {
   font-size: 18px;
   text-align: center;
-  /* max-width: 900px; */
-  /* height: 100px; */
   padding: 0px 20px 2px;
 }
 
@@ -75,70 +67,144 @@ article {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  /* width: 100vw; */
 }
 
 .section1 {
-  /* flex-direction: column;
-  display: flex; */
-background-color: rgb(253, 251, 236);
-width: 100vw;
-/* min-height: 100px; */
+  background-color: rgb(253, 251, 236);
+  width: 100%;
 }
 
-.generalSection{
-  /* background-color: rgb(78, 76, 76); */
-
+.generalSection {
 }
 
 .mainSection {
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: stretch;
- flex-wrap: wrap;
- background-color: rgb(78, 76, 76);
- padding: 40px;
- gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  background-color: rgb(78, 76, 76);
+  padding: 80px;
+  gap: 30px;
 }
 
-/* .main-wrapper {
-height: 80%;
-} */
-
 .img {
- /* max-height: 180px;
- max-width: 600px; */
- object-fit: cover;
- width: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
 }
 
 .container {
+  display: flex;
   flex: 1;
-list-style-type: none;
-/* color: white; */
-text-align: center;
-/* height: 450px; */
-
-font-size: 0;
-/* height: 520px; */
-
+  flex-direction: column;
+  flex: 1;
+  list-style-type: none;
+  text-align: center;
+  background-color: white;
+  font-size: 0;
 }
 
-.paragraf, h3 {
+.paragraf,
+h3 {
   background-color: white;
   font-size: 18px;
+  margin-bottom: 40px;
 }
 
-.paragraf{
+h3 {
+  margin-top: 40px;
+}
+.paragraf {
   width: 100%;
-
+  padding: 20px;
 }
-.applicationInfo{
-  font-size: 18px;
-  /* max-width: 850px; */
-  text-align: center; 
-  padding: 5px; 
+.applicationInfo {
+  text-align: center;
+  padding: 5px;
   margin: 50px auto 40px;
+  width: 60%;
 }
 
+.section1 h2 {
+  margin-bottom: 0;
+}
+
+.handle-digital {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+
+.handle-header {
+  /* width: 100vw; */
+  margin-top: -20px;
+  padding-bottom: 30px;
+}
+
+.handle-p {
+  text-align: center;
+  /* width: 100vw; */
+  padding: 0 20px;
+  width: 100%;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* font-size: 0; */
+}
+
+.contact-section {
+  background-color: blue;
+  text-align: center;
+  color: white;
+  width: 50%;
+  height: 320px;
+  padding: 30px 20px 15px;
+  flex-basis: 350px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.about-our-section {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  width: 50%;
+  height: 320px;
+  padding: 30px 20px 15px;
+  flex-basis: 350px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.mailto {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-top: 35px;
+}
+
+.page-end {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  font-size: 18px;
+}
+
+.link{
+  color: rgb(48, 145, 236);
+  text-decoration: none;
+}
